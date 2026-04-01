@@ -1,6 +1,7 @@
 import Gallery from "./components/Gallery"
 import NamedComponentTest from "./components/NamedComponentTest"
 import ParentComp from "./components/ParentComp"
+import SpreadComp from "./components/SpreadComp"
 import UseJsx from "./components/UseJsx"
 
 export default function App() {
@@ -9,7 +10,8 @@ export default function App() {
       {/* <NamedComponentTest /> */}
       {/* <Gallery /> */}
       {/* <UseJsx/> */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      <SpreadComp />
     </>
   )
 }
