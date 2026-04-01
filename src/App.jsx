@@ -1,11 +1,15 @@
 import Gallery from "./components/Gallery"
 import NamedComponentTest from "./components/NamedComponentTest"
+import ParentComp from "./components/ParentComp"
+import UseJsx from "./components/UseJsx"
 
 export default function App() {
   return (
     <>
-      <NamedComponentTest />
+      {/* <NamedComponentTest /> */}
       {/* <Gallery /> */}
+      {/* <UseJsx/> */}
+      <ParentComp />
     </>
   )
 }
