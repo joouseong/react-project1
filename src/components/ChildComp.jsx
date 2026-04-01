@@ -1,9 +1,7 @@
-import reactLogo from '../assets/react.svg'
-
-export default function ChildComp () {
+export default function ChildComp ({imageInfo, width, height}) {
   return (
     <>
-      <img className="button-icon" src={reactLogo} alt="" style={{width:150}}/>
+      <img src={imageInfo.src} alt={imageInfo.alt} width={width} height={height} />
     </>
   )
 }
