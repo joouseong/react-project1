@@ -7,7 +7,7 @@ export default function MovieHeroes() {
         hero.power === 5
     );
     const listHeroes = filterTests.map(hero => 
-        <li>
+        <li key={hero.id}>
             <p>
                 {hero.name}의 배역은 {hero.casting} 입니다.
             </p>
