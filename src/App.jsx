@@ -1,3 +1,4 @@
+import ButtonCom from "./components/ButtonCom/ButtonCom"
 import Gallery from "./components/Gallery"
 import Kiosk from "./components/Kiosk"
 import MovieHeroes from "./components/MovieHeroes"
@@ -21,7 +22,8 @@ export default function App() {
       {/* <MovieHeroes /> */}
       {/* <Kiosk /> */}
       {/* <TeaSet /> */}
-      <TeaGathering />
+      {/* <TeaGathering /> */}
+      <ButtonCom />
     </>
   )
 }

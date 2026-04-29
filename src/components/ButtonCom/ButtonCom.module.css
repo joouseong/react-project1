@@ -1,0 +1,16 @@
+.title {
+    font-size: 30px;
+    color: blue;
+}
+
+.navBar {
+    padding: 15px;
+    background-color: #ccc;
+    border: #000 1px solid;
+}
+
+.myButton {
+    margin-right: 10px;
+    background-color: green;
+    border-radius: 25px;
+}
