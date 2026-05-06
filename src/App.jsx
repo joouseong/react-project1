@@ -1,4 +1,5 @@
 import ButtonCom from "./components/ButtonCom/ButtonCom"
+import ToolBar from "./components/ButtonCom/ToolBar"
 import Gallery from "./components/Gallery"
 import Kiosk from "./components/Kiosk"
 import MovieHeroes from "./components/MovieHeroes"
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Kiosk /> */}
       {/* <TeaSet /> */}
       {/* <TeaGathering /> */}
-      <ButtonCom />
+      {/* <ButtonCom /> */}
+      <ToolBar />
     </>
   )
 }
