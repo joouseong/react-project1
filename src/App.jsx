@@ -7,6 +7,8 @@ import MovieHeroes from "./components/MovieHeroes"
 import NamedComponentTest from "./components/NamedComponentTest"
 import PackingList from "./components/PackingList"
 import ParentComp from "./components/ParentComp"
+import Signup1 from "./components/Signup/Signup1"
+import Signup2 from "./components/Signup/Signup2"
 import SpreadComp from "./components/SpreadComp"
 import TeaGathering from "./components/TeaGathering"
 import TeaSet from "./components/TeaSet"
@@ -27,7 +29,9 @@ export default function App() {
       {/* <TeaGathering /> */}
       {/* <ButtonCom /> */}
       {/* <ToolBar /> */}
-      <Bubble />
+      {/* <Bubble /> */}
+      <Signup1 />
+      <Signup2 />
     </>
   )
 }
