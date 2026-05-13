@@ -1,3 +1,4 @@
+import Bubble from "./components/Bubble/Bubble"
 import ButtonCom from "./components/ButtonCom/ButtonCom"
 import ToolBar from "./components/ButtonCom/ToolBar"
 import Gallery from "./components/Gallery"
@@ -25,7 +26,8 @@ export default function App() {
       {/* <TeaSet /> */}
       {/* <TeaGathering /> */}
       {/* <ButtonCom /> */}
-      <ToolBar />
+      {/* <ToolBar /> */}
+      <Bubble />
     </>
   )
 }
