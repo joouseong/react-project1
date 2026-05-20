@@ -1,6 +1,7 @@
 import Bubble from "./components/Bubble/Bubble"
 import ButtonCom from "./components/ButtonCom/ButtonCom"
 import ToolBar from "./components/ButtonCom/ToolBar"
+import Carousel from "./components/Carousel/Carousel"
 import Gallery from "./components/Gallery"
 import Kiosk from "./components/Kiosk"
 import MovieHeroes from "./components/MovieHeroes"
@@ -30,8 +31,9 @@ export default function App() {
       {/* <ButtonCom /> */}
       {/* <ToolBar /> */}
       {/* <Bubble /> */}
-      <Signup1 />
-      <Signup2 />
+      {/* <Signup1 /> */}
+      {/* <Signup2 /> */}
+      <Carousel />
     </>
   )
 }
