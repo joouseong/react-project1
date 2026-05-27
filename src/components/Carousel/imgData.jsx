@@ -17,7 +17,7 @@ export const galleryImages = [
     },
     {
         name: "Slide 3",
-        artist: "Artist 1",
+        artist: "Artist 3",
         description: "Placeholder image for slide 3",
         url: "https://placehold.co/600x400?text=slide3",
         alt: "Slide 3",
