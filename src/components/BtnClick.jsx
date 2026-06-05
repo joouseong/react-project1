@@ -4,11 +4,11 @@ export default function BtnClick() {
     const [number, setNumber] = useState(0);
 
     function handleIncrease3 () {
-        setNumber(number + 1);
+        setNumber(n => n + 1);
         console.log(number)
-        setNumber(number + 1);
+        setNumber(n => n + 1);
         console.log(number)
-        setNumber(number + 1);
+        setNumber(n => n + 1);
         console.log(number)
     }
     function handleIncrease5 () {
@@ -19,11 +19,9 @@ export default function BtnClick() {
     }
     function handleTimer() {
         setNumber(number + 5);
-        console.log(number)
         setTimeout(() => { // 많이쓰는 함수
             alert(number);
-        }, 1000);
-        console.log(number)
+        }, 3000);
     }
 
     return(
