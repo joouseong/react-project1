@@ -18,7 +18,7 @@
 import ButtonCom from "./ButtonCom";
 import {handlePlay, handleStop} from "./handle";
 import style from "./ButtonCom.module.css"
-import sampleVideo from "../../assets/sample.mp4";
+// import sampleVideo from "../../assets/sample.mp4";
 
 export default function ToolBar() {
     return(

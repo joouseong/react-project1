@@ -1,3 +1,4 @@
+import BtnClick from "./components/btnClick"
 import Bubble from "./components/Bubble/Bubble"
 import ButtonCom from "./components/ButtonCom/ButtonCom"
 import ToolBar from "./components/ButtonCom/ToolBar"
@@ -33,7 +34,8 @@ export default function App() {
       {/* <Bubble /> */}
       {/* <Signup1 /> */}
       {/* <Signup2 /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <BtnClick />
     </>
   )
 }
